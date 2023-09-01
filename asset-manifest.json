@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/kunal168.github.io/static/css/main.79c8e973.css",
+    "main.js": "/kunal168.github.io/static/js/main.7d9402cc.js",
+    "static/css/64.bba8fa55.chunk.css": "/kunal168.github.io/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.e8d8da4a.chunk.js": "/kunal168.github.io/static/js/64.e8d8da4a.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/kunal168.github.io/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.93a2c111.chunk.js": "/kunal168.github.io/static/js/769.93a2c111.chunk.js",
+    "static/media/iit.png": "/kunal168.github.io/static/media/iit.d82ac43dd112e40b732d.png",
+    "static/media/jpmc.png": "/kunal168.github.io/static/media/jpmc.c903f0382bc86b63ae55.png",
+    "static/media/Montserrat-Regular.ttf": "/kunal168.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/codechef.png": "/kunal168.github.io/static/media/codechef.400aba84e8ae83ac38b7.png",
+    "static/media/Agustina.woff": "/kunal168.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/prastuti.png": "/kunal168.github.io/static/media/prastuti.399524a4c702cef55328.png",
+    "static/media/iiit.png": "/kunal168.github.io/static/media/iiit.c9413292832243deab63.png",
+    "static/media/manOnTable.svg": "/kunal168.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/codex.png": "/kunal168.github.io/static/media/codex.84172bb20ed89c7cd64a.png",
+    "static/media/amd.png": "/kunal168.github.io/static/media/amd.4abdcac301f551e07b6e.png",
+    "static/media/coursera.png": "/kunal168.github.io/static/media/coursera.76bb0eb581ac4f118ca8.png",
+    "static/media/contactMailDark.svg": "/kunal168.github.io/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/kunal168.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/oracle.png": "/kunal168.github.io/static/media/oracle.c07667e36b072b6a4208.png",
+    "static/media/umass.png": "/kunal168.github.io/static/media/umass.b0d2e82f5c662d9e5ea5.png",
+    "static/media/google.png": "/kunal168.github.io/static/media/google.dc69913015f54ccd29e7.png",
+    "static/media/scaler.png": "/kunal168.github.io/static/media/scaler.cf7cfe3e73b9e1f5d2cb.png",
+    "index.html": "/kunal168.github.io/index.html",
+    "main.79c8e973.css.map": "/kunal168.github.io/static/css/main.79c8e973.css.map",
+    "main.7d9402cc.js.map": "/kunal168.github.io/static/js/main.7d9402cc.js.map",
+    "64.bba8fa55.chunk.css.map": "/kunal168.github.io/static/css/64.bba8fa55.chunk.css.map",
+    "64.e8d8da4a.chunk.js.map": "/kunal168.github.io/static/js/64.e8d8da4a.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/kunal168.github.io/static/css/769.b3cbb36b.chunk.css.map",
+    "769.93a2c111.chunk.js.map": "/kunal168.github.io/static/js/769.93a2c111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c8e973.css",
+    "static/js/main.7d9402cc.js"
+  ]
+}
