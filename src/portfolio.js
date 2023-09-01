@@ -239,7 +239,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: emoji("Projects 👨🏻‍💻"),
   subtitle: "All academic and self-projects I completed till date.",
   projects: [
     {
@@ -329,7 +329,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements 🏆 "),
+  title: emoji("Achievements 🏆"),
   achievementsCards: [
     {
       title: "Scaler - Trivia Tuesday'22",
@@ -415,16 +415,24 @@ const achievementSection = {
 
  // Certifications
  const certifications = {
-  title: "Certifications",
+  title: emoji("Certifications 🏅"),
   subtitle: "Few certifications/courses, I undertook to develop relevant skillset and build my profile.",
   certification: [
     {
       image: require("./assets/images/udacity.png"),
-      certificationName: "Microsoft Azure Foundational course (Machine Learning Scholarship) from Udacity",
+      certificationName: "Microsoft Azure Nanodegree course (Machine Learning Scholarship) from Udacity",
+    },
+    {
+      image: require("./assets/images/udacity.png"),
+      certificationName: "Next Generation Tech Booster ( Front End Developer Scholarship ) from Udacity"
     },
     {
       image: require("./assets/images/coursera.png"),
       certificationName: "Machine Learning by Stanford University from Coursera",
+    },
+    {
+      image: require("./assets/images/datacamp.png"),
+      certificationName: "Introduction to Data Science with Python from DataCamp",
     },
     {
       image: require("./assets/images/datacamp.png"),
@@ -435,13 +443,9 @@ const achievementSection = {
       certificationName: "Core Python course from PluralSight",
     },
     {
-      image: require("./assets/images/datacamp.png"),
-      certificationName: "Introduction to Data Science with Python from DataCamp",
-    },
-    {
       image: require("./assets/images/pluralsight.png"),
       certificationName: "C++ Programming from PluralSight",
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -449,7 +453,7 @@ const achievementSection = {
 
 // Positions of Responisibilty
 const positionOfResponsibility = {
-  title: "Positions of Responisbility",
+  title: emoji("Positions of Responisbility 💼"),
   subtitle: "Few positions where I displayed my soft skills like communication, leadership, management etc.",
   por: [
     {
@@ -468,7 +472,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Currently, I am looking for Full-Time opportunities from June 2024 in Software Engineering, Machine Learning, Data Science \& Natural Language Processing domains. If you find my profile suitable, please reach out to me.",
-  number: "+1(413)399-1934",
+  location: emoji("📍 Amherst, Massachusetts, United States"),
+  content: "Open for Opportunities : Yes",
   email_address: "kunalkumar@umass.edu"
 };
 
