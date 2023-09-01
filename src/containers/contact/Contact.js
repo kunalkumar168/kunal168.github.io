@@ -29,13 +29,19 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
+              <div className="contact-normal">
+                {contactInfo.location}
+                  <br />
+                  <br />
+                {contactInfo.content}
+              </div>
+              {/* {contactInfo.location && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"https://www.vecteezy.com/vector-art/552683-geo-location-pin-vector-icon" + contactInfo.location}
                   >
-                    {contactInfo.number}
+                    {contactInfo.location}
                   </a>
                   <br />
                   <br />
@@ -46,21 +52,17 @@ export default function Contact() {
                 href={"mailto:" + contactInfo.email_address}
               >
                 {contactInfo.email_address}
-              </a>
+              </a> */}
               <br />
               <br />
               <SocialMedia />
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
               <img
+                src={require("../../assets/images/kunal.png")}
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
               ></img>
-            )}
           </div>
         </div>
       </div>

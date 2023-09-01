@@ -34,7 +34,7 @@
 }
 
 .contact-subtitle {
-  text-transform: uppercase;
+  text-transform: normal;
 }
 
 .contact-text-div {
@@ -46,10 +46,16 @@
 }
 
 .contact-image-div > img {
-  max-width: 100%;
-  height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  max-width: 50%;
+  height: 80%;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  border:4px solid blue;
+  border-radius: 50%;
+}
+
+.contact-normal{
+    font-size: 20px;
 }
 
 /* Media Query */
@@ -66,7 +72,7 @@
   }
 
   .contact-subtitle {
-    font-size: 16px;
+    font-size: 25px;
     line-height: normal;
     text-align: center;
   }
@@ -75,13 +81,12 @@
     text-align: center;
     margin-top: 1.5rem;
   }
-
   .contact-detail,
   .contact-detail-email {
-    font-size: 20px;
+    font-size: 2px;
   }
 
   .contact-image-div {
-    display: none;
+    display: inline-block;
   }
 }
