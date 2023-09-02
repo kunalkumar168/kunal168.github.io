@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kunal168.github.io/static/css/main.b92e0b79.css",
-    "main.js": "/kunal168.github.io/static/js/main.0771b0b7.js",
+    "main.css": "/kunal168.github.io/static/css/main.9afa4a0f.css",
+    "main.js": "/kunal168.github.io/static/js/main.f0d65e49.js",
     "static/css/64.bba8fa55.chunk.css": "/kunal168.github.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.e8d8da4a.chunk.js": "/kunal168.github.io/static/js/64.e8d8da4a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/kunal168.github.io/static/css/769.b3cbb36b.chunk.css",
@@ -24,15 +24,15 @@
     "static/media/google.png": "/kunal168.github.io/static/media/google.dc69913015f54ccd29e7.png",
     "static/media/scaler.png": "/kunal168.github.io/static/media/scaler.cf7cfe3e73b9e1f5d2cb.png",
     "index.html": "/kunal168.github.io/index.html",
-    "main.b92e0b79.css.map": "/kunal168.github.io/static/css/main.b92e0b79.css.map",
-    "main.0771b0b7.js.map": "/kunal168.github.io/static/js/main.0771b0b7.js.map",
+    "main.9afa4a0f.css.map": "/kunal168.github.io/static/css/main.9afa4a0f.css.map",
+    "main.f0d65e49.js.map": "/kunal168.github.io/static/js/main.f0d65e49.js.map",
     "64.bba8fa55.chunk.css.map": "/kunal168.github.io/static/css/64.bba8fa55.chunk.css.map",
     "64.e8d8da4a.chunk.js.map": "/kunal168.github.io/static/js/64.e8d8da4a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/kunal168.github.io/static/css/769.b3cbb36b.chunk.css.map",
     "769.93a2c111.chunk.js.map": "/kunal168.github.io/static/js/769.93a2c111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b92e0b79.css",
-    "static/js/main.0771b0b7.js"
+    "static/css/main.9afa4a0f.css",
+    "static/js/main.f0d65e49.js"
   ]
 }
