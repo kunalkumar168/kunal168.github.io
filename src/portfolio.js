@@ -33,7 +33,6 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  phone: "+14133991934",
   gmail: "kunalkumar@umass.edu",
   github: "https://github.com/kunalkumar168",
   linkedin: "https://www.linkedin.com/in/kunal-kumar-/",
@@ -66,7 +65,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -74,15 +73,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "C++",
+      skillName: "C/C++",
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -94,11 +93,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-r-project"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
@@ -117,6 +116,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Pytorch",
       fontAwesomeClassname: "fas fa-fire"
     },
+    {
+      skillName: "Spark",
+      fontAwesomeClassname: "far fa-star"
+    },
+    {
+      skillName: "Anaconda",
+      fontAwesomeClassname: "far fa-circle"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -471,9 +478,9 @@ const positionOfResponsibility = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Currently, I am looking for Full-Time opportunities from June 2024 in Software Engineering, Machine Learning, Data Science \& Natural Language Processing domains. If you find my profile suitable, please reach out to me.",
+    "Currently, I am looking for Full-Time opportunities from June 2024 in Software Engineering, Machine Learning, Data Science \& Natural Language Processing domains. If you find my profile suitable, please reach out to me at : ",
   location: emoji("📍 Amherst, Massachusetts, United States"),
-  content: "Open for Opportunities : Yes",
+  content: emoji("Open for Opportunities : Yes ✅"),
   email_address: "kunalkumar@umass.edu"
 };
 

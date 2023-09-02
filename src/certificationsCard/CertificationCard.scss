@@ -1,0 +1,138 @@
+@import "../../_globalColor";
+
+.certification-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.certification-card:hover + .certification-card-border {
+  border-color: $educationCardBorder;
+  width: 100%;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+.certification-card-border {
+  height: 30px;
+  width: 80%;
+  border-top: 2px solid $lightBorder1;
+  margin-bottom: 20px;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+.certification-head {
+  display: flex;
+  flex-direction: row;
+}
+
+.certification-text-certname {
+  margin: -5;
+  font-size: 20px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 27px;
+}
+
+.certification-roundedimg {
+  object-fit: fill;
+  margin-right: 2rem;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border-radius: 50%;
+}
+
+.certification-card-right {
+  max-width: 70%;
+}
+
+.certification-card-left {
+  max-width: 70%;
+}
+
+.certification-text-subHeader {
+  color: $textColor;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0px;
+  padding-top: 0.8rem;
+  line-height: normal;
+}
+
+.certification-text-duration {
+  color: $titleColor;
+  font-size: 19px;
+  margin: 0px;
+  padding-top: 0.5rem;
+}
+
+.certification-text-desc {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.certification-text-bullets > ul {
+  margin-top: 0.5rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .certification-card {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .certification-card-right {
+    max-width: 90%;
+  }
+  .certification-card-border {
+    width: 90%;
+  }
+  .certification-text-subHeader {
+    padding-top: 0.5rem;
+    font-size: 16px;
+  }
+  .certification-text-school {
+    font-size: 20px;
+    height: 23px;
+  }
+  .certification-text-duration {
+    font-size: 16px;
+  }
+  .certification-roundedimg {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certification-card {
+    text-align: center;
+  }
+  .certification-card-right {
+    max-width: 100%;
+  }
+  .certification-card-border {
+    width: 100%;
+  }
+  .certification-roundedimg {
+    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .certification-text-bullets > ul {
+    max-width: 80%;
+    margin: auto;
+  }
+}
